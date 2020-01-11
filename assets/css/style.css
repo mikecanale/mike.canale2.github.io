@@ -1,162 +1,167 @@
 body {
-    color: #777777; 
-    max-width: 960px; 
-    margin-left: 240px; 
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
-    background-image: url('../images/circuit.png');
+  color: #777777;
+  max-width: 960px;
+  margin-left: 240px;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  background-image: url("../images/circuit.png");
 }
 .navbar {
-    height: 80px; 
-    border-top: 8px solid #4aaaa5;
-    border-bottom: 8px solid #4aaaa5; 
-    border-left: 8px solid #4aaaa5; 
-    border-right: 8px solid #4aaaa5; 
-} 
+  height: 80px;
+  border-top: 8px solid #4aaaa5;
+  border-bottom: 8px solid #4aaaa5;
+  border-left: 8px solid #4aaaa5;
+  border-right: 8px solid #4aaaa5;
+}
 .navbar-brand {
-    color: white; 
-    background-color: #4aaaa5; 
-    display: block; 
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    text-align: center; 
-    font-size: 28px; 
-    margin: 0px 0px 0px 0px; 
-    padding: 0px;  
-    border-top: 10px solid #4aaaa5;
-    border-bottom: 10px solid #4aaaa5; 
-    border-left: 10px solid #4aaaa5; 
-    border-right: 10px solid #4aaaa5; 
+  color: white;
+  background-color: #4aaaa5;
+  display: block;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 28px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  border-top: 10px solid #4aaaa5;
+  border-bottom: 10px solid #4aaaa5;
+  border-left: 10px solid #4aaaa5;
+  border-right: 10px solid #4aaaa5;
 }
 a.navbar-brand {
-color: white; 
+  color: white;
 }
 .navbar-nav {
-    color: #777777; 
-    margin-left: 480px; 
-} 
-.body {
-    height: 500px; 
-    padding: 40px; 
+  color: #777777;
+  margin-left: 480px;
 }
-.about_me { 
-    background-color: white; 
-    border-top: 8px solid #4aaaa5;
-    border-bottom: 8px solid #4aaaa5; 
-    border-left: 8px solid #4aaaa5; 
-    border-right: 8px solid #4aaaa5; 
+.navbar-collapse {
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+}
+.body {
+  height: 500px;
+  padding: 40px;
+}
+.about_me {
+  background-color: white;
+  border-top: 8px solid #4aaaa5;
+  border-bottom: 8px solid #4aaaa5;
+  border-left: 8px solid #4aaaa5;
+  border-right: 8px solid #4aaaa5;
 }
 h2 {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif; 
-    margin-top: 20px; 
+  color: #4aaaa5;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  margin-top: 20px;
 }
 .body img {
-    float: left;  
-    border-top: 8px solid #4aaaa5;
-    border-bottom: 8px solid #4aaaa5; 
-    border-left: 8px solid #4aaaa5; 
-    border-right: 8px solid #4aaaa5;  
-    margin-right: 10px;  
+  float: left;
+  border-top: 8px solid #4aaaa5;
+  border-bottom: 8px solid #4aaaa5;
+  border-left: 8px solid #4aaaa5;
+  border-right: 8px solid #4aaaa5;
+  margin-right: 10px;
 }
-.body p {  
-    text-align: left; 
-} 
+.body p {
+  text-align: left;
+}
 .fixed-bottom {
-    height: 90px; 
+  height: 90px;
 }
 .footer {
-    background-color: #666666; 
-    color: white; 
-    height: 80px; 
-    border-top: 8px solid #4aaaa5;
-    border-bottom: 8px solid #4aaaa5; 
-    border-left: 8px solid #4aaaa5; 
-    border-right: 8px solid #4aaaa5; 
-    text-align: center; 
+  background-color: #666666;
+  color: white;
+  height: 80px;
+  border-top: 8px solid #4aaaa5;
+  border-bottom: 8px solid #4aaaa5;
+  border-left: 8px solid #4aaaa5;
+  border-right: 8px solid #4aaaa5;
+  text-align: center;
 }
 .contact {
-    height: 550px; 
-    padding: 40px; 
+  height: 550px;
+  padding: 40px;
 }
-.contact_me { 
-    background-color: white;
-    border-top: 8px solid #4aaaa5;
-    border-bottom: 8px solid #4aaaa5; 
-    border-left: 8px solid #4aaaa5; 
-    border-right: 8px solid #4aaaa5; 
+.contact_me {
+  background-color: white;
+  border-top: 8px solid #4aaaa5;
+  border-bottom: 8px solid #4aaaa5;
+  border-left: 8px solid #4aaaa5;
+  border-right: 8px solid #4aaaa5;
 }
 .btn {
-    margin-top: 2%; 
-    margin-left: 45%;  
-    background-color: #4aaaa5; 
+  margin-top: 2%;
+  margin-left: 45%;
+  background-color: #4aaaa5;
 }
 .portfolio {
-    height: 700px; 
-    padding: 40px; 
-    margin-bottom: 10%; 
+  height: 700px;
+  padding: 40px;
+  margin-bottom: 10%;
 }
-.portfolio_me { 
-    background-color: white;
-    border-top: 8px solid #4aaaa5;
-    border-bottom: 8px solid #4aaaa5; 
-    border-left: 8px solid #4aaaa5; 
-    border-right: 8px solid #4aaaa5; 
+.portfolio_me {
+  background-color: white;
+  border-top: 8px solid #4aaaa5;
+  border-bottom: 8px solid #4aaaa5;
+  border-left: 8px solid #4aaaa5;
+  border-right: 8px solid #4aaaa5;
 }
 .photo1 {
-    float: left;  
-    width: 33.3%; 
-    height: 100px;  
-    margin-top: 40px; 
-    margin-bottom: 180px; 
+  float: left;
+  width: 33.3%;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 180px;
 }
 .photo2 {
-    float: left; 
-    width: 33.3%; 
-    height: 100px; 
-    margin-top: 40px; 
-    margin-bottom: 180px; 
+  float: left;
+  width: 33.3%;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 180px;
 }
 .photo3 {
-    float: right; 
-    width: 33.3%; 
-    height: 100px;  
-    margin-top: 40px; 
-    margin-bottom: 180px; 
+  float: right;
+  width: 33.3%;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 180px;
 }
 .photo4 {
-    float: left; 
-    width: 33.3%;
-    height: 100px;  
-    margin-left: 5%;   
+  float: left;
+  width: 33.3%;
+  height: 100px;
+  margin-left: 5%;
 }
 .photo5 {
-    float: left;  
-    width: 33.3%;
-    height: 100px; 
-    margin-left: 25%;
+  float: left;
+  width: 33.3%;
+  height: 100px;
+  margin-left: 25%;
 }
 .responsive {
-    width: 100%; 
-    height: auto; 
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1000px) {
-    body {
-        margin-left: 20px; 
-    }
-    .container {
-        width: 500px; 
-    }
-    .fixed-bottom {
-        margin-bottom: 0px;  
-    }
-    .navbar-nav {
-        color: #777777; 
-        margin-left: 0px; 
-    }
+  body {
+    margin-left: 20px;
+  }
+  .container {
+    width: 500px;
+  }
+  .fixed-bottom {
+    margin-bottom: 0px;
+  }
+  .navbar-nav {
+    color: #777777;
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .photo1 {
-        width: 10px; 
-    }
+  .photo1 {
+    width: 10px;
+  }
 }
